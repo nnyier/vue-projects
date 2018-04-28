@@ -69,11 +69,11 @@ export default {
   color: #333;
 }
 .stick {
-  line-height: 30px;
+  line-height: 3rem;
   background: #f5f5f5;
   color: #333;
   font-size: 0.9rem;
-  margin-left: 15px;
+  text-indent: 1rem;
 }
 .blog-content {
   padding: 15px;
@@ -88,12 +88,11 @@ export default {
   font-size: 0.8rem;
   line-height: 1.6rem;
   color: rgb(71, 70, 70);
-  /* padding-bottom: 30px; */
 }
 .stick-block {
   display: inline-block;
   width: fit-content;
-  padding: 5px 8px;
+  padding: 3px 8px;
   background: #777777;
   color: #ffffff;
   text-align: center;

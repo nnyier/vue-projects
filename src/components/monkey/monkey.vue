@@ -7,9 +7,11 @@
           <div class="blog-content">
             <div class="n-title">嫁人就嫁程序员</div>
             <div class="n-content">
-              <p>
-                个人网站正在建设中个人网站正在建设中个人网站正在建设中个人网站正在建设中个人网站正在建设中个人网站正在建设中个人网站正在建设中个人网站正在建设中 个人网站正在建设中个人网站正在建设中个人网站正在建设中个人网站正在建设中个人网站正在建设中个人网站正在建设中个人网站正在建设中个人网站正在建设中 个人网站正在建设中个人网站正在建设中个人网站正在建设中个人网站正在建设中个人网站正在建设中个人网站正在建设中个人网站个人网站正在建设中个人网站正在建设中个人网站正在建设中个人网站正在建设中个人网站正在建设中正在建设中个人网站正在建设中
-              </p>
+              <p>女神：你能让这个论坛的人都吵起来，我今晚就跟你走。</p>
+              <p>程序猿：PHP语言是最好的语言！</p>
+              <p>论坛炸锅了，各种吵架...</p>
+              <p>女神：服了你了，我们走吧，你想干啥都行。</p>
+              <p>程序猿：今天不行，我一定要说服他们，PHP语言是最好的语言。</p>
             </div>
           </div>
         </i-col>
@@ -26,7 +28,7 @@ export default {};
 .nancy-monkey {
   margin-top: 20px;
   width: 100%;
-  height: 160px;
+  height: 200px;
   background: #fff;
   padding: 0px 15px 15px 0px;
   border: 1px solid#ddd;
@@ -66,15 +68,14 @@ div.nancy-monkey:hover {
   margin: 5px 0;
 }
 .blog-content .n-content {
-  height: 50px;
+  height: 120px;
   overflow: hidden;
-  text-overflow: ellipsis;
+  /* text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: vertical; */
   font-size: 0.8rem;
-  line-height: 1.6rem;
+  line-height: 1.4rem;
   color: rgb(71, 70, 70);
-  /* padding-bottom: 30px; */
 }
 </style>

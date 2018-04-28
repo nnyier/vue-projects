@@ -87,14 +87,14 @@ div.blog-content:hover {
 .n-content .code {
   background: #eee;
   width: fit-content;
-  padding: 8px 10px 8px 0;
+  padding: 5px 15px 5px 5px;
   margin-left: 20px;
   text-align: left;
   border-radius: 5px;
 }
 .dollar {
   color: rgb(148, 87, 7);
-  margin-right: 5px;
+  margin: 0 5px;
 }
 .add {
   color: rgb(7, 156, 77);

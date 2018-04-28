@@ -88,7 +88,7 @@ div.blog-content:hover {
 }
 .dollar {
   color: rgb(148, 87, 7);
-  margin-right: 5px;
+  margin: 0 5px;
 }
 .add {
   color: rgb(7, 156, 77);
