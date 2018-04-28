@@ -2,7 +2,9 @@
     <Row>
         <i-col span="24">
             <div class="blog-content">
-                <div class="n-title">前端路由</div>
+                <div class="n-title">
+                  <a href="http://www.cnblogs.com/shengnan-2017/p/8134937.html">前端路由</a>
+                </div>
                 <span class="stick-block stick-block1">Vue</span>
                 <span class="stick-block">vue-router</span>
                 <div class="n-content">
@@ -39,6 +41,10 @@ div.blog-content:hover {
   font-weight: bold;
   line-height: 1.8rem;
   margin: 8px 10px;
+}
+.n-title a:hover {
+  color: saddlebrown;
+  text-decoration: unset;
 }
 .stick-block1 {
   margin-left: 10px;

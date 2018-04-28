@@ -1,24 +1,26 @@
 <template>
-    <Row>
-        <i-col span="24">
-            <div class="blog-content">
-                <div class="n-title">如何在vue中使用Bootstrap</div>
-                <span class="stick-block stick-block1">Bootstrap</span>
-                <span class="stick-block">vue</span>
-                <div class="n-content">
-                    <h5>安装 jquery</h5>
-                    <p class="code">
-                        <span class="dollar">$</span>
-                        <span class="npm">npm</span> install jquery --save-dev</p>
-                    <h5>在webpack.config.js 添加内容</h5>
-                    <p class="code">
-                        <span class="add">+</span> plugins: [ new webpack.ProvidePlugin({ jQuery: 'jquery', $: 'jquery' }) ]
-                    </p>
-                </div>
-                <icon></icon>
-            </div>
-        </i-col>
-    </Row>
+  <Row>
+    <i-col span="24">
+      <div class="blog-content">
+        <div class="n-title">
+          <a href="http://www.cnblogs.com/shengnan-2017/p/8094134.html">如何在vue中使用Bootstrap</a>
+        </div>
+        <span class="stick-block stick-block1">Bootstrap</span>
+        <span class="stick-block">vue</span>
+        <div class="n-content">
+          <h5>安装 jquery</h5>
+          <p class="code">
+            <span class="dollar">$</span>
+            <span class="npm">npm</span> install jquery --save-dev</p>
+          <h5>在webpack.config.js 添加内容</h5>
+          <p class="code">
+            <span class="add">+</span> plugins: [ new webpack.ProvidePlugin({ jQuery: 'jquery', $: 'jquery' }) ]
+          </p>
+        </div>
+        <icon></icon>
+      </div>
+    </i-col>
+  </Row>
 </template>
 
 <script>
@@ -45,6 +47,10 @@ div.blog-content:hover {
   font-weight: bold;
   line-height: 1.8rem;
   margin: 8px 10px;
+}
+.n-title a:hover {
+  color: saddlebrown;
+  text-decoration: unset;
 }
 .stick-block1 {
   margin-left: 10px;
