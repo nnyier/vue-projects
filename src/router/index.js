@@ -7,7 +7,10 @@ import NStudy from '@/components/study/study'
 import NTag from '@/components/tag/tag'
 import NFind from '@/components/find/find'
 import NWrite from '@/components/write/write'
-
+import Hot from '../components/hot/hot'
+import Pay from '../components/pay/pay'
+import Answering from '../components/answering/answering'
+import More from '../components/more/more'
 Vue.use(Router)
 
 export default new Router({
@@ -22,7 +25,25 @@ export default new Router({
     },
     {
       path: '/answer',
-      component: NAnswer
+      component: NAnswer,
+      children: [
+        {
+          path: '/hot',
+          component: Hot
+        },
+        {
+          path: '/pay',
+          component: Pay
+        },
+        {
+          path: '/answering',
+          component: Answering
+        },
+        {
+          path: '/more',
+          component: More
+        }
+      ]
     },
     {
       path: '/column',

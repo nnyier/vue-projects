@@ -48,7 +48,6 @@ export default {
   display: inline-block;
 }
 .header .logo {
-  margin-left: 20px;
   float: left;
   font-size: 1.5em;
   line-height: 55px;
@@ -76,7 +75,7 @@ export default {
 }
 .search-query {
   float: right;
-  margin-top: 15px;
+  margin-top: 12px;
 }
 .el-input {
   width: 130px;
