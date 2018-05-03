@@ -6,6 +6,7 @@
         <router-view></router-view>
       </i-col>
       <i-col span="6">
+        <rank></rank>
       </i-col>
     </Row>
   </div>
@@ -13,9 +14,11 @@
 
 <script>
 import Acontent from "../acontent/acontent";
+import Rank from '../rank/rank'
 export default {
   components: {
-    Acontent
+    Acontent,
+    Rank
   }
 };
 </script>

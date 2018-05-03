@@ -1,12 +1,12 @@
 <template>
-    <div class="n-answerlist">
+    <div class="n-morelist">
         <div class="n-left">
             <div class="left-content answer">
-                <span>0</span>
+                <span>14</span>
                 <span>回答</span>
             </div>
             <div class="left-content browse">
-                <span>2</span>
+                <span>325</span>
                 <span>浏览</span>
             </div>
         </div>
@@ -14,16 +14,16 @@
             <ul class="right-content">
                 <li>
                     <a href="#" class="author">nancy</a>
-                    <span>1分钟前</span>
+                    <span>57分钟前</span>
                 </li>
             </ul>
-            <h2><a href="https://segmentfault.com/a/1190000002804472">github上值得关注的前端项目</a></h2>
+            <h2><a href="https://segmentfault.com/a/1190000010791103">FPB 2.0：免费的计算机编程类中文书籍 2.0</a></h2>
             <ul class="right-box">
                 <li>
-                    <a href="#">git</a>
+                    <a href="#">javascript</a>
                 </li>
                 <li>
-                    <a href="#">github</a>
+                    <a href="#">php</a>
                 </li>
             </ul>
         </div>
@@ -35,7 +35,7 @@ export default {};
 </script>
 
 <style scoped>
-.n-answerlist {
+.n-morelist {
   margin-top: 0.8rem;
   text-align: left;
   border-bottom: 1px solid #ddd;

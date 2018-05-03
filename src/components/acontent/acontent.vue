@@ -36,7 +36,7 @@ export default {};
 }
 .router-link-exact-active,
 .router-link-active {
-  color: rgb(8, 156, 119);
+  color: #009a61;
   font-weight: 500;
   background: #fff;
   border-radius: 3px 3px 0 0;

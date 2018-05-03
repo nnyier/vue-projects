@@ -1,12 +1,12 @@
 <template>
-    <div class="n-answerlist">
+    <div class="n-paylist">
         <div class="n-left">
             <div class="left-content answer">
-                <span>0</span>
+                <span>1</span>
                 <span>回答</span>
             </div>
             <div class="left-content browse">
-                <span>2</span>
+                <span>35</span>
                 <span>浏览</span>
             </div>
         </div>
@@ -14,10 +14,10 @@
             <ul class="right-content">
                 <li>
                     <a href="#" class="author">nancy</a>
-                    <span>1分钟前</span>
+                    <span>17分钟前</span>
                 </li>
             </ul>
-            <h2><a href="https://segmentfault.com/a/1190000002804472">github上值得关注的前端项目</a></h2>
+            <h2><a href="https://segmentfault.com/q/1010000014606291">一个本地文件使用git上传至码云和githup？</a></h2>
             <ul class="right-box">
                 <li>
                     <a href="#">git</a>
@@ -35,7 +35,7 @@ export default {};
 </script>
 
 <style scoped>
-.n-answerlist {
+.n-paylist {
   margin-top: 0.8rem;
   text-align: left;
   border-bottom: 1px solid #ddd;

@@ -1,5 +1,5 @@
 <template>
-   <div class="header-wrapper">
+  <div class="header-wrapper">
     <div class="header">
       <a href="#" class="logo">
         <img src="../assets/logo.png" alt="">
@@ -7,7 +7,7 @@
       </a>
       <ul class="float-r">
         <router-link tag="li" to="/index" class="routeritem">首页</router-link>
-        <router-link tag="li" to="/answer" class="routeritem">问答</router-link>
+        <router-link tag="li" to="/answer" class="routeritem" exact>问答</router-link>
         <router-link tag="li" to="/column" class="routeritem">专栏</router-link>
         <router-link tag="li" to="/study" class="routeritem">学习</router-link>
         <router-link tag="li" to="/tag" class="routeritem">标签</router-link>
@@ -16,7 +16,7 @@
       </ul>
       <i-input v-model="value4" icon="search" placeholder="请搜索..." style="width: 200px" class="search-query"></i-input>
     </div>
-   </div>
+  </div>
 </template>
 
 <script>
@@ -68,6 +68,10 @@ export default {
   line-height: 55px;
   font-size: 1rem;
 }
+.float-r li.active {
+  color: rgb(8, 156, 119);
+  font-weight: 500;
+}
 .routeritem {
   float: left;
   margin: 0 1.8rem;
@@ -84,7 +88,8 @@ export default {
 .input-with-select .el-input-group__prepend {
   background-color: #fff;
 }
-.router-link-exact-active, .router-link-active {
+.router-link-exact-active,
+.router-link-active {
   color: rgb(8, 156, 119);
   font-weight: 500;
 }

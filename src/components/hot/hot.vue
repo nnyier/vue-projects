@@ -1,41 +1,47 @@
 <template>
     <div class="n-hot">
         <answerlist></answerlist>
+        <paylist></paylist>
         <answerlist></answerlist>
+        <paylist></paylist>
         <answerlist></answerlist>
+        <paylist></paylist>
         <answerlist></answerlist>
+        <paylist></paylist>
         <answerlist></answerlist>
+        <paylist></paylist>
         <answerlist></answerlist>
+        <paylist></paylist>
         <answerlist></answerlist>
+        <paylist></paylist>
         <answerlist></answerlist>
+        <paylist></paylist>
         <answerlist></answerlist>
+        <paylist></paylist>
         <answerlist></answerlist>
+        <paylist></paylist>
         <answerlist></answerlist>
+        <paylist></paylist>
         <answerlist></answerlist>
+        <paylist></paylist>
         <answerlist></answerlist>
+        <paylist></paylist>
         <answerlist></answerlist>
+        <paylist></paylist>
         <answerlist></answerlist>
+        <paylist></paylist>
         <answerlist></answerlist>
-        <answerlist></answerlist>
-        <answerlist></answerlist>
-        <answerlist></answerlist>
-        <answerlist></answerlist>
-        <answerlist></answerlist>
-        <answerlist></answerlist>
-        <answerlist></answerlist>
-        <answerlist></answerlist>
-        <answerlist></answerlist>
-        <answerlist></answerlist>
-        <answerlist></answerlist>
-        <answerlist></answerlist>
+        <paylist></paylist>
     </div>
 </template>
 
 <script>
 import Answerlist from "../answerlist/answerlist";
+import Paylist from '../paylist/paylist'
 export default {
   components: {
-    Answerlist
+    Answerlist,
+    Paylist
   }
 };
 </script>

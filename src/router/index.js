@@ -26,6 +26,7 @@ export default new Router({
     {
       path: '/answer',
       component: NAnswer,
+      redirect: '/hot',
       children: [
         {
           path: '/hot',
