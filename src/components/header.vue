@@ -7,7 +7,7 @@
       </a>
       <ul class="float-r">
         <router-link tag="li" to="/index" class="routeritem">首页</router-link>
-        <router-link tag="li" to="/answer" class="routeritem" exact>问答</router-link>
+        <router-link tag="li" to="/answer" class="routeritem" active-class="active">问答</router-link>
         <router-link tag="li" to="/column" class="routeritem">专栏</router-link>
         <router-link tag="li" to="/study" class="routeritem">学习</router-link>
         <router-link tag="li" to="/tag" class="routeritem">标签</router-link>
