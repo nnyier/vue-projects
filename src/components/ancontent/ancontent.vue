@@ -5,7 +5,7 @@
         <acontent></acontent>
         <router-view></router-view>
       </i-col>
-      <i-col span="6">
+      <i-col span="6" class="sidebar">
         <rank></rank>
       </i-col>
     </Row>
@@ -27,5 +27,8 @@ export default {
 .n-content {
   background: #fff;
   padding: 0 20px;
+}
+.sidebar {
+  padding: 20px 0 0 20px;
 }
 </style>
