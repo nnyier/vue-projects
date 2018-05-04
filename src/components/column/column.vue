@@ -1,20 +1,17 @@
 <template>
   <div class="n-answer">
     <div class="content-wrapper">
-      <ancontent></ancontent>
-      <router-view></router-view>
+      <colcontent></colcontent>
     </div>
     <Page :total="100" class="pagination"></Page>
   </div>
 </template>
 
 <script>
-import Anheader from "../anheader/anheader";
-import Ancontent from "../ancontent/ancontent";
+import Colcontent from "../colcontent/colcontent";
 export default {
   components: {
-    Anheader,
-    Ancontent
+    Colcontent
   }
 };
 </script>
@@ -37,7 +34,7 @@ export default {
   margin: 20px 0;
 }
 .n-answer .ivu-page-item-active {
-    background-color: #009a61;
-    border-color: #009a61;
+  background-color: #009a61;
+  border-color: #009a61;
 }
 </style>

@@ -11,6 +11,10 @@ import Hot from '../components/hot/hot'
 import Pay from '../components/pay/pay'
 import Answering from '../components/answering/answering'
 import More from '../components/more/more'
+import Recommend from '../components/recommend/recommend'
+import Lasted from '../components/lasted/lasted'
+import Hotest from '../components/hotest/hotest'
+
 Vue.use(Router)
 
 export default new Router({
@@ -52,23 +56,22 @@ export default new Router({
     {
       path: '/column',
       component: NColumn,
-      redirect: 'pay',
       children: [
         {
-          path: '/hot',
-          component: Hot
+          path: '/',
+          redirect: 'recommend'
         },
         {
-          path: '/pay',
-          component: Pay
+          path: 'recommend',
+          component: Recommend
         },
         {
-          path: '/answering',
-          component: Answering
+          path: 'lasted',
+          component: Lasted
         },
         {
-          path: '/more',
-          component: More
+          path: 'hotest',
+          component: Hotest
         }
       ]
     },
