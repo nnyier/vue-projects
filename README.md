@@ -1,8 +1,8 @@
-# vue-boilerplate
+# vue-projects
 ## [Resources](./Resources.md)
 
 
-> A Vue.js boilerplate project update time 20180429
+> A Vue.js project 
 
 #### vendor 
 - [vuex](https://vuex.vuejs.org/zh-cn/intro.html)

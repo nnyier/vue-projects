@@ -1,10 +1,10 @@
 <template>
   <div class="content-wrapper">
     <ul class="float-r">
-      <router-link tag="li" to="/hot" class="routeritem">最热问题</router-link>
-      <router-link tag="li" to="/pay" class="routeritem">付费问答</router-link>
-      <router-link tag="li" to="/answering" class="routeritem">正在解答</router-link>
-      <router-link tag="li" to="/more" class="routeritem">更多</router-link>
+      <router-link tag="li" to="/answer/hot" class="routeritem">最热问题</router-link>
+      <router-link tag="li" to="/answer/pay" class="routeritem">付费问答</router-link>
+      <router-link tag="li" to="/answer/answering" class="routeritem">正在解答</router-link>
+      <router-link tag="li" to="/answer/more" class="routeritem">更多</router-link>
     </ul>
   </div>
 </template>

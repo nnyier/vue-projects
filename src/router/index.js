@@ -26,7 +26,33 @@ export default new Router({
     {
       path: '/answer',
       component: NAnswer,
-      redirect: '/hot',
+      children: [
+        {
+          path: '/',
+          redirect: 'hot'
+        },
+        {
+          path: 'hot',
+          component: Hot
+        },
+        {
+          path: 'pay',
+          component: Pay
+        },
+        {
+          path: 'answering',
+          component: Answering
+        },
+        {
+          path: 'more',
+          component: More
+        }
+      ]
+    },
+    {
+      path: '/column',
+      component: NColumn,
+      redirect: 'pay',
       children: [
         {
           path: '/hot',
@@ -45,10 +71,6 @@ export default new Router({
           component: More
         }
       ]
-    },
-    {
-      path: '/column',
-      component: NColumn
     },
     {
       path: '/study',

@@ -23,7 +23,7 @@ export default {
   data() {
     return {
       items: [
-        "大脑虎",
+        "大脑斧",
         "就是爱编程",
         "天域",
         "微笑pastime",
