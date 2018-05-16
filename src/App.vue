@@ -6,19 +6,19 @@
 </template>
 
 <script>
-import NHeader from '../src/components/header'
+import NHeader from "../src/components/header";
 export default {
-  name: 'App',
+  name: "App",
   components: {
     NHeader
   }
-}
+};
 </script>
 
 <style>
-@import '../src/common/css/reset.css';
+@import "../src/common/css/reset.css";
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

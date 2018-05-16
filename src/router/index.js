@@ -15,6 +15,11 @@ import Recommend from '../components/recommend/recommend'
 import Lasted from '../components/lasted/lasted'
 import Hotest from '../components/hotest/hotest'
 
+import Recovideo from '../components/study/recovideo'
+import Hotvideo from '../components/study/hotvideo'
+import Newvideo from '../components/study/newvideo'
+import Openvideo from '../components/study/openvideo'
+
 Vue.use(Router)
 
 export default new Router({
@@ -77,7 +82,29 @@ export default new Router({
     },
     {
       path: '/study',
-      component: NStudy
+      component: NStudy,
+      children: [
+        {
+          path: '/',
+          redirect: 'recovideo'
+        },
+        {
+          path: 'recovideo',
+          component: Recovideo
+        },
+        {
+          path: 'hotvideo',
+          component: Hotvideo
+        },
+        {
+          path: 'newvideo',
+          component: Newvideo
+        },
+        {
+          path: 'openvideo',
+          component: Openvideo
+        }
+      ]
     },
     {
       path: '/tag',
