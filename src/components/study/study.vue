@@ -3,7 +3,6 @@
     <div class="content-wrapper">
       <stucontent></stucontent>
     </div>
-    <Page :total="100" class="pagination"></Page>
   </div>
 </template>
 
